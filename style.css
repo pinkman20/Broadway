@@ -1,0 +1,68 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+header {
+    background-color: #333333;
+    text-align:center;
+
+}
+
+nav {
+    margin:0;
+    padding: 15px;
+}
+
+nav li,a {
+    color:white;
+    display:inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+
+main {
+    top: 0px;
+    text-align:center;
+    position: relative;
+    text-transform: uppercase;
+}
+
+main h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.btn-main {
+    top: 55px;
+    position: relative;
+    background-color: #333;
+    color:white;
+    padding: 20px 40px;
+    letter-spacing: 1.5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 20px;
+    
+ 
+}
+
+.jumbotron {
+    
+    padding: 30px;
+    height: 700px;
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+  }
